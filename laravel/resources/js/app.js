@@ -11,8 +11,17 @@ ScrollReveal().reveal('.cc_headline_scroll_2', {
 });
 
 ScrollReveal().reveal('.cc_intro-text', {
-    delay: 800
+    delay: 500
 });
+
+ScrollReveal().reveal('.cc_conversation_banner-wrapper', {
+    delay: 1000
+});
+
+
+
+
+
 
 $(document).ready(function () {
     $(".cc_arrow-icon").click(function () {
@@ -21,37 +30,22 @@ $(document).ready(function () {
             },
             'slow');
     });
+
+    VANTA.NET({
+        el: '#cc_vantajs-bg',
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        color: 0xff9068,
+        backgroundColor: 0xffffff,
+        points: 13.00,
+        maxDistance: 25.00,
+        spacing: 20.00
+    })
 });
 
-window.
-onload
-    = function () {
-        Particles.init({
-            // normal options
-            selector: '.background',
-            maxParticles: 100,
-            connectParticles: true,
-            speed: 0.2,
-            color: '#7d7d7d',
-            // options for breakpoints
-            responsive: [{
-                breakpoint: 768,
-                options: {
-                    maxParticles: 60,
-                    connectParticles: true
-                }
-            }, {
-                breakpoint: 425,
-                options: {
-                    maxParticles: 20,
-                    connectParticles: true
-                }
-            }, {
-                breakpoint: 320,
-                options: {
-                    maxParticles: 0
-                    // disables particles.js
-                }
-            }]
-        });
-    };
+

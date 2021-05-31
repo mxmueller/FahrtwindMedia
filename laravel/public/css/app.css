@@ -31831,6 +31831,34 @@ video {
   --tw-backdrop-sepia: sepia(100%);
 }
 
+#cc_vantajs-bg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  z-index: -1;
+}
+
+#cc_conversation_banner {
+  position: absolute;
+  bottom: 3.3%;
+  right: 3.3%;
+}
+
+.cc_gradient {
+  background: linear-gradient(to right, #ff9068 0%, #ff4b1f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cc_gradient-bg {
+  background: #ff4b1f;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ff4b1f, #ff9068);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 .cc_navigation {
   background-color: transparent;
 }
@@ -31841,20 +31869,26 @@ video {
 }
 
 .cc_intro-font_animation {
-  color: #f35626;
-  background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+  background: linear-gradient(to right, #ff9068 20%, #ff4b1f 40%, #ff4b1f 60%, #ff9068 80%);
+  background-size: 200% auto;
+  color: #000;
+  background-clip: text;
+  text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-animation: hue 10s infinite linear;
+  -webkit-animation: shine 10s linear infinite;
+  animation: shine 10s linear infinite;
 }
 
-@-webkit-keyframes hue {
-  from {
-    -webkit-filter: hue-rotate(0deg);
-  }
-
+@-webkit-keyframes shine {
   to {
-    -webkit-filter: hue-rotate(-360deg);
+    background-position: 200% center;
+  }
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
   }
 }
 
