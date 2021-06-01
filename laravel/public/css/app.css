@@ -31833,16 +31833,48 @@ video {
 
 #cc_vantajs-bg {
   position: absolute;
-  height: 100%;
+  height: 110%;
   width: 100%;
   top: 0;
   z-index: -1;
+  left: 0;
 }
 
 #cc_conversation_banner {
   position: absolute;
   bottom: 3.3%;
   right: 3.3%;
+}
+
+.cc_transverse_element-wrapper {
+  width: 100%;
+  max-width: 100vw;
+  height: 35vh;
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  margin: -33vh 0 0 0;
+  z-index: -1;
+}
+
+.cc_transverse_element {
+  width: 110%;
+  height: 30vh;
+  position: absolute;
+  left: 0px;
+  margin: 11vh 0 0 0;
+  z-index: 0;
+  transform: rotate( 
+-6deg
+ );
+  box-shadow: -13px -7px 12px 0px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+}
+
+.cc_second_intro_wrapper {
+}
+
+.cc_ci-bg1 {
+  background-color: #ff4b1f;
 }
 
 .cc_gradient {
