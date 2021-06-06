@@ -54,7 +54,7 @@
         </div>
     </header>
 
-    <article class="px-6 h-screen intro">
+    <article class="cc_intro_main px-6 h-screen intro">
         <h2 class="font-semibold cc_intro-font cc_headline_scroll_1">Fahrtwind</h2>
         <h2 class="font-semibold cc_intro-font cc_intro-font_animation cc_headline_scroll_2">Media</h2>
         <svg class="mt-4 cc_arrow-icon animate-bounce w-6 h-6 justify-center w-full cursor-pointer">
