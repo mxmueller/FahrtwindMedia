@@ -30,7 +30,12 @@
 </head>
 
 <body class="antialiased">
-    <header x-data="{ mobileMenuOpen : false }"
+    
+  <div id="FahrtwindMediaVueMain">
+    
+  </div>
+  
+  <header x-data="{ mobileMenuOpen : false }"
         class="cc_navigation navigation flex flex-wrap flex-row justify-between md:items-center md:space-x-4 bg-white py-6 px-6 relative">
         <button @click="mobileMenuOpen = !mobileMenuOpen"
             class="inline-block md:hidden w-8 h-8 bg-gray-200 text-gray-600 p-1">
@@ -54,26 +59,6 @@
         </div>
     </header>
 
-    <article class="cc_intro_main px-6 h-screen intro">
-        <h2 class="font-semibold cc_intro-font cc_headline_scroll_1">Fahrtwind</h2>
-        <h2 class="font-semibold cc_intro-font cc_intro-font_animation cc_headline_scroll_2">Media</h2>
-        <svg class="mt-4 cc_arrow-icon animate-bounce w-6 h-6 justify-center w-full cursor-pointer">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 justify-center w-full" fill="none"
-                viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-            </svg>
-        </svg>
-
-        <div id="cc_vantajs-bg"></div>
-
-        <div class="cc_conversation_banner-wrapper">          
-          <div id="cc_conversation_banner"
-                class="p-5 rounded-lg shadow-lg  text-center animate-pulse bg-white">
-                <a href="#" class="no-underline hover:underline">Nimm Kontakt mit uns auf!</a>
-                ✍️
-            </div>
-        </div>
-    </article>
 
     <article class="text-lg pt-12 pb-24 px-6 text-gray-600 cc_intro-text cc_second_intro_wrapper cc_ci-bg1">
 

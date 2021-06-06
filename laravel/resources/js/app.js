@@ -1,43 +1,35 @@
+/**
+ * First we will load all of this project's JavaScript dependencies which
+ * includes Vue and other libraries. It is a great starting point when
+ * building robust, powerful web applications using Vue and Laravel.
+ */
+
 require('./bootstrap');
+require ('./animations.js');
 
-ScrollReveal().reveal('.navigation', {
-    delay: 200
+
+window.Vue = require('vue').default;
+
+/**
+ * The following block of code may be used to automatically register your
+ * Vue components. It will recursively scan this directory for the Vue
+ * components and automatically register them with their "basename".
+ *
+* Eg. ./components/ExampleComponent.vue -> <example-component></example-component>
+ */
+
+// const files = require.context('./', true, /\.vue$/i)
+// files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
+
+Vue.component('intro', require('./components/intro.vue').default);
+Vue.component('hello', require('./components/hello.vue').default);
+
+/**
+ * Next, we will create a fresh Vue application instance and attach it to
+ * the page. Then, you may begin adding components to this application
+ * or customize the JavaScript scaffolding to fit your unique needs.
+ */
+
+const app = new Vue({
+    el: '#app',
 });
-ScrollReveal().reveal('.cc_headline_scroll_1', {
-    delay: 500
-});
-ScrollReveal().reveal('.cc_headline_scroll_2', {
-    delay: 800
-});
-
-ScrollReveal().reveal('.cc_conversation_banner-wrapper', {
-    delay: 1000
-});
-
-$(document).ready(function () {
-    $(".cc_arrow-icon").click(function () {
-        $('html,body').animate({
-                scrollTop: $(".cc_intro-text").offset().top
-            },
-            'slow');
-    });
-
-    VANTA.NET({
-        el: '#cc_vantajs-bg',
-        mouseControls: true,
-        touchControls: true,
-        gyroControls: false,
-        minHeight: 200.00,
-        minWidth: 200.00,
-        scale: 1.00,
-        scaleMobile: 1.00,
-        color: 0xff9068,
-        backgroundColor: 0xe8e8e8,
-        points: 13.00,
-        maxDistance: 25.00,
-        spacing: 20.00
-    })
-
-});
-
-

@@ -17,7 +17,7 @@
     right: 3.3%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) { 
     .cc_intro_main {
         height: 80vh;
         margin-top: 20vh;
