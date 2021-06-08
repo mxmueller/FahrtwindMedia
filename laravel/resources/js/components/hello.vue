@@ -1,5 +1,5 @@
 <template>
-       <article class="text-lg pt-12 pb-24 px-6 text-gray-600 cc_intro-text cc_second_intro_wrapper cc_ci-bg1">
+       <article class="cc_jump-to-article text-lg pt-12 pb-24 px-6 text-gray-600 cc_intro-text cc_second_intro_wrapper cc_gradient-linear">
 
       <div class="cc_transverse_element-wrapper">
         <div class="cc_transverse_element cc_ci-bg1"></div>

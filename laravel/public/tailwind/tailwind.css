@@ -31831,6 +31831,32 @@ video {
   --tw-backdrop-sepia: sepia(100%);
 }
 
+.loader {
+  border-top-color: #ff4b1f;
+  -webkit-animation: spinner 1.5s linear infinite;
+  animation: spinner 1.5s linear infinite;
+}
+
+@-webkit-keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 #cc_vantajs-bg {
   position: absolute;
   height: 110%;
@@ -31880,6 +31906,10 @@ video {
 .cc_second_intro_wrapper {
 }
 
+.cc_textc_dark {
+  color: #ff4b1f;
+}
+
 .cc_ci-bg1 {
   background-color: #ff4b1f;
 }
@@ -31888,6 +31918,16 @@ video {
   background: linear-gradient(to right, #ff9068 0%, #ff4b1f 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.cc_gradient-linear {
+  background: rgb(255,144,104);
+  background: linear-gradient(0deg, rgba(255,144,104,1) 0%, rgba(255,75,31,1) 100%);
+}
+
+.cc_gradient-left-to-right {
+  background: #ff4b1f;  /* fallback for old browsers */  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ff9068, #ff4b1f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .cc_gradient-bg {
@@ -31903,7 +31943,7 @@ video {
 }
 
 .cc_intro-font {
-  font-size: 20vw;
+  font-size: 17vw;
   line-height: 20vw;
 }
 

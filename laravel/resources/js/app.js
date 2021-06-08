@@ -23,7 +23,11 @@ window.Vue = require('vue').default;
 
 Vue.component('intro', require('./components/intro.vue').default);
 Vue.component('hello', require('./components/hello.vue').default);
-
+Vue.component('hero-team', require('./components/hero-team.vue').default);
+Vue.component('teaser-team', require('./components/teaser-team.vue').default);
+Vue.component('team-mm-lebenslauf', require('./components/team-mm-lebenslauf.vue').default);
+Vue.component('team-mm-stack', require('./components/team-mm-stack.vue').default);
+Vue.component('team-mm-hero', require('./components/team-mm-hero.vue').default);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application

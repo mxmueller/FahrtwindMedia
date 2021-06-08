@@ -21,6 +21,14 @@ Route::get('/home', function () {
     return view('home');
 });
 
-Route::get('/developer', function () {
-    return view('developer');
+Route::get('/team', function () {
+    return view('team');
+});
+
+Route::get('/team/maximilianmueller', function () {
+    return view('maximilianmueller');
+});
+
+Route::get('/maximilianmueller', function () {
+    return view('maximilianmueller');
 });

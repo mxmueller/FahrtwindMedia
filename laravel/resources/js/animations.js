@@ -1,14 +1,11 @@
 $(document).ready(function () {
-    ScrollReveal().reveal('.navigation', {
-        delay: 200
-    });
     ScrollReveal().reveal('.cc_headline_scroll_1', {
         delay: 500
     });
     ScrollReveal().reveal('.cc_headline_scroll_2', {
         delay: 800
     });
-    
+
     ScrollReveal().reveal('.cc_conversation_banner-wrapper', {
         delay: 1000
     });
@@ -48,18 +45,18 @@ $(document).ready(function () {
     ScrollReveal().reveal('.cc_a_9', {
         delay: 1200
     });
-    
-
 
     $(".cc_arrow-icon").click(function () {
         $('html,body').animate({
-                scrollTop: $(".cc_intro-text").offset().top
+                scrollTop: $(".cc_jump-to-article").offset().top
             },
             'slow');
     });
 
     VANTA.NET({
         el: '#cc_vantajs-bg',
+        color: 0xff9068,
+        backgroundColor: 0xffffff,
         mouseControls: true,
         touchControls: true,
         gyroControls: false,
@@ -67,10 +64,7 @@ $(document).ready(function () {
         minWidth: 200.00,
         scale: 1.00,
         scaleMobile: 1.00,
-        color: 0xff9068,
-        backgroundColor: 0xe8e8e8,
-        points: 13.00,
-        maxDistance: 25.00,
-        spacing: 20.00
+        points: 18.00,
+        maxDistance: 23.00
     })
 });
