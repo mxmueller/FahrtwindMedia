@@ -32,3 +32,12 @@ Route::get('/team/maximilianmueller', function () {
 Route::get('/maximilianmueller', function () {
     return view('maximilianmueller');
 });
+
+Route::get('/team/jeremygassner', function () {
+    return view('jeremygassner');
+});
+
+Route::get('/jeremygassner', function () {
+    return view('jeremygassner');
+});
+

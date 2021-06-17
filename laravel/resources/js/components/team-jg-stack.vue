@@ -30,7 +30,7 @@
                                         viewBox="0 0 24 24">
                                         <path d="M20 6L9 17l-5-5"></path>
                                     </svg>
-                                </span>CSS, SCSS & LESS
+                                </span>CSS & SCSS
                             </a>
                             <a>
                                 <span
@@ -50,27 +50,7 @@
                                         viewBox="0 0 24 24">
                                         <path d="M20 6L9 17l-5-5"></path>
                                     </svg>
-                                </span>Blade
-                            </a>
-                            <a>
-                                <span
-                                    class="text-yellow-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
-                                        stroke-linejoin="round" stroke-width="3" class="w-3 h-3 cc_textc_dark"
-                                        viewBox="0 0 24 24">
-                                        <path d="M20 6L9 17l-5-5"></path>
-                                    </svg>
-                                </span>Tailwind
-                            </a>
-                            <a>
-                                <span
-                                    class="text-yellow-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
-                                        stroke-linejoin="round" stroke-width="3" class="w-3 h-3 cc_textc_dark"
-                                        viewBox="0 0 24 24">
-                                        <path d="M20 6L9 17l-5-5"></path>
-                                    </svg>
-                                </span>Bootstrap
+                                </span>WPF
                             </a>
                             <a>
                                 <span
@@ -97,7 +77,7 @@
                                         viewBox="0 0 24 24">
                                         <path d="M20 6L9 17l-5-5"></path>
                                     </svg>
-                                </span>PHP
+                                </span>C#
                             </a>
                             <a>
                                 <span
@@ -107,7 +87,7 @@
                                         viewBox="0 0 24 24">
                                         <path d="M20 6L9 17l-5-5"></path>
                                     </svg>
-                                </span>Laravel
+                                </span>SQL
                             </a>
                             <a>
                                 <span
@@ -117,7 +97,7 @@
                                         viewBox="0 0 24 24">
                                         <path d="M20 6L9 17l-5-5"></path>
                                     </svg>
-                                </span>Symfony
+                                </span>JAVA
                             </a>
                             <a>
                                 <span
@@ -128,6 +108,36 @@
                                         <path d="M20 6L9 17l-5-5"></path>
                                     </svg>
                                 </span>Python
+                            </a>
+                            <a>
+                                <span
+                                    class="text-yellow-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="3" class="w-3 h-3 cc_textc_dark"
+                                        viewBox="0 0 24 24">
+                                        <path d="M20 6L9 17l-5-5"></path>
+                                    </svg>
+                                </span>Lua
+                            </a>
+                            <a>
+                                <span
+                                    class="text-yellow-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="3" class="w-3 h-3 cc_textc_dark"
+                                        viewBox="0 0 24 24">
+                                        <path d="M20 6L9 17l-5-5"></path>
+                                    </svg>
+                                </span>XML
+                            </a>
+                            <a>
+                                <span
+                                    class="text-yellow-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="3" class="w-3 h-3 cc_textc_dark"
+                                        viewBox="0 0 24 24">
+                                        <path d="M20 6L9 17l-5-5"></path>
+                                    </svg>
+                                </span>TypeScript
                             </a>
                         </nav>
                     </div>
@@ -145,17 +155,7 @@
                                         viewBox="0 0 24 24">
                                         <path d="M20 6L9 17l-5-5"></path>
                                     </svg>
-                                </span>eTracker Expert
-                            </a>
-                            <a>
-                                <span
-                                    class="text-yellow-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
-                                        stroke-linejoin="round" stroke-width="3" class="w-3 h-3 cc_textc_dark"
-                                        viewBox="0 0 24 24">
-                                        <path d="M20 6L9 17l-5-5"></path>
-                                    </svg>
-                                </span>Google Onlinemarketing
+                                </span>CCNA (Cisco)
                             </a>
                         </nav>
                     </div>

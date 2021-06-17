@@ -23,7 +23,7 @@
                                 <h2 class="text-gray-900 text-lg title-font font-medium">Maximilian Müller</h2>
                             </div>
                             <div class="flex-grow">
-                                <p class="leading-relaxed text-base">Full-Stack-Webentwickler, Desktopentwickler Python, Administration Server/ Webserver, SEO, Online-Marketing, Webtracking</p>
+                                <p class="leading-relaxed text-base">Full-Stack-Webentwickler, Python, Administration Server/ Webserver, SEO, Online-Marketing, Webtracking</p>
                                 <a class="mt-3 cc_textc_dark inline-flex items-center" href="/team/maximilianmueller">Vita
                                     <svg fill="none" stroke="currentColor" stroke-linecap="round"
                                         stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2"
@@ -45,11 +45,11 @@
                                         <circle cx="12" cy="7" r="4"></circle>
                                     </svg>
                                 </div>
-                                <h2 class="text-gray-900 text-lg title-font font-medium">Jerremy Gassner</h2>
+                                <h2 class="text-gray-900 text-lg title-font font-medium">Jeremy Gassner</h2>
                             </div>
                             <div class="flex-grow">
                                 <p class="leading-relaxed text-base">Full-Stack-Webentwickler, Desktopentwickler in Java C# und Python, Mobile Development</p>
-                                <a class="mt-3 cc_textc_dark inline-flex items-center" href="/team/jerremygassner">Vita
+                                <a class="mt-3 cc_textc_dark inline-flex items-center" href="/team/jeremygassner">Vita
                                     <svg fill="none" stroke="currentColor" stroke-linecap="round"
                                         stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2"
                                         viewBox="0 0 24 24">

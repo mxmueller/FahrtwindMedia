@@ -7,10 +7,11 @@
 
 <!-- vue.js render section (id: app) -->
 <div id="app">
-    <team-mm-hero></team-mm-hero>
-    <team-mm-stack></team-mm-stack>
-    <team-mm-lebenslauf></team-mm-lebenslauf>
-    <team-mm-links></team-mm-links>
+    <team-jg-hero></team-jg-hero>
+    <team-jg-werdegang></team-jg-werdegang>
+    <team-jg-stack></team-jg-stack>
+    <team-jg-lebenslauf></team-jg-lebenslauf>
+    <team-jg-links></team-jg-links>
 </div>
 
 @include('layouts.footer')

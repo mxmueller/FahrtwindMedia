@@ -28,6 +28,12 @@ Vue.component('teaser-team', require('./components/teaser-team.vue').default);
 Vue.component('team-mm-lebenslauf', require('./components/team-mm-lebenslauf.vue').default);
 Vue.component('team-mm-stack', require('./components/team-mm-stack.vue').default);
 Vue.component('team-mm-hero', require('./components/team-mm-hero.vue').default);
+Vue.component('team-mm-links', require('./components/team-mm-links.vue').default);
+Vue.component('team-jg-links', require('./components/team-jg-links.vue').default);
+Vue.component('team-jg-lebenslauf', require('./components/team-jg-lebenslauf.vue').default);
+Vue.component('team-jg-stack', require('./components/team-jg-stack.vue').default);
+Vue.component('team-jg-hero', require('./components/team-jg-hero.vue').default);
+Vue.component('team-jg-werdegang', require('./components/team-jg-werdegang.vue').default);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
