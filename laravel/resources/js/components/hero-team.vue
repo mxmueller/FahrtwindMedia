@@ -3,7 +3,7 @@
         <div class="container mx-auto flex flex-col px-5 py-24 justify-center items-center">
             <div class="w-full md:w-2/3 flex flex-col items-center text-center">
                 <p class="leading-relaxed text-gray-100 mb-5">WIR STELLEN UNS VOR</p>
-                <h1 class="title-font text-9xl mb-4 font-semibold text-white">Das Team</h1>
+                <h1 class="title-font text-4xl md:text-9xl mb-4 font-semibold text-white">Das Team</h1>
                 <svg class="mt-4 cc_arrow-icon text-white animate-bounce w-6 h-6 justify-center w-full cursor-pointer">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 justify-center w-full" fill="none"
                         viewBox="0 0 24 24" stroke="currentColor">

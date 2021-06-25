@@ -5,7 +5,7 @@
         $(function () {
             setTimeout(function () {
                 $("#loading").fadeOut("slow");
-            }, 500);
+            }, 50);
         })
     </script>
 </div>

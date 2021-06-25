@@ -7,7 +7,7 @@
     
     @include('includes.links')
     @include('includes.scripts')
-    
+
     <style>
         body {
             font-family: 'Fjalla One', sans-serif;

@@ -41,3 +41,7 @@ Route::get('/jeremygassner', function () {
     return view('jeremygassner');
 });
 
+Route::get('/impressum', function () {
+    return view('imprint');
+});
+

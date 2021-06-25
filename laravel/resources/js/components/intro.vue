@@ -14,7 +14,7 @@
         <div class="cc_conversation_banner-wrapper">          
           <div id="cc_conversation_banner"
                 class="p-5 rounded-lg shadow-lg  text-center animate-pulse bg-white">
-                <a href="#" class="no-underline hover:underline">Nimm Kontakt mit uns auf!</a>
+                <a href="/team" class="no-underline hover:underline">Nimm Kontakt mit uns auf!</a>
                 ✍️
             </div>
         </div>

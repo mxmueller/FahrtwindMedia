@@ -4,9 +4,9 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 
+require ('./cookieconsent/cookieconsent.js');
 require('./bootstrap');
 require ('./animations.js');
-
 
 window.Vue = require('vue').default;
 
@@ -34,6 +34,8 @@ Vue.component('team-jg-lebenslauf', require('./components/team-jg-lebenslauf.vue
 Vue.component('team-jg-stack', require('./components/team-jg-stack.vue').default);
 Vue.component('team-jg-hero', require('./components/team-jg-hero.vue').default);
 Vue.component('team-jg-werdegang', require('./components/team-jg-werdegang.vue').default);
+Vue.component('imprint-hero', require('./components/imprint-hero.vue').default);
+Vue.component('imprint-text', require('./components/imprint-text.vue').default);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application

@@ -31837,6 +31837,14 @@ video {
   animation: spinner 1.5s linear infinite;
 }
 
+.ocip1 {
+  opacity: 1 !important;
+}
+
+#cconsent-bar {
+  box-shadow: -13px -7px 12px 0px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+}
+
 @-webkit-keyframes spinner {
   0% {
     -webkit-transform: rotate(0deg);

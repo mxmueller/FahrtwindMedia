@@ -53,10 +53,8 @@ $(document).ready(function () {
             'slow');
     });
 
-    VANTA.NET({
+    VANTA.WAVES({
         el: '#cc_vantajs-bg',
-        color: 0xff9068,
-        backgroundColor: 0xffffff,
         mouseControls: true,
         touchControls: true,
         gyroControls: false,
@@ -64,7 +62,10 @@ $(document).ready(function () {
         minWidth: 200.00,
         scale: 1.00,
         scaleMobile: 1.00,
-        points: 18.00,
-        maxDistance: 23.00
+        color: 0xacacac,
+        shininess: 99.00,
+        waveHeight: 22.50,
+        waveSpeed: 0.80,
+        zoom: 0.65
     })
 });
