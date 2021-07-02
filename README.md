@@ -1,2 +1,6 @@
-# FahrtwindMedia
-![alt text](https://github.com/mxmueller/FahrtwindMedia/blob/main/Screenshots/Screenshot%202021-06-06%20at%2022.09.02.png)
+# Fahrtwind Media
+
+Webrepository for: https://fahrtwindmedia.de/ <br>
+Passwords: https://github.com/mxmueller/Fahrtwind_Media_Passwords.git
+
+![alt text](https://github.com/mxmueller/FahrtwindMedia/blob/main/Logo/fm_logo_master.png)
