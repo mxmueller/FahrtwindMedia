@@ -31989,6 +31989,115 @@ video {
   z-index: -1;
 }
 
+.box{
+  position: absolute;
+  top: 50%;   left: 50%;
+  transform: translate(-50%,-50%);
+  width: 40px;  height: 40px;
+  border: 5px solid #262626;
+  overflow: hidden;
+  -webkit-animation: 4s animateBox infinite linear;
+          animation: 4s animateBox infinite linear;
+}
+
+.box::before{
+  content: '';
+  position: absolute;
+  bottom: 0;  left: 0;
+  width: 100%;   height: 100%;
+  background: #262626;
+  -webkit-animation: 4s animateBefore infinite linear;
+          animation: 4s animateBefore infinite linear;
+}
+
+@-webkit-keyframes animateBefore{
+  0%{
+    bottom: -100%;
+  }
+
+  25%{
+    bottom: 0%;
+  }
+
+  50%{
+    bottom: 0%;
+  }
+
+  75%{
+    bottom: 100%;
+  }
+
+  100%{
+    bottom: 100%;
+  }
+}
+
+@keyframes animateBefore{
+  0%{
+    bottom: -100%;
+  }
+
+  25%{
+    bottom: 0%;
+  }
+
+  50%{
+    bottom: 0%;
+  }
+
+  75%{
+    bottom: 100%;
+  }
+
+  100%{
+    bottom: 100%;
+  }
+}
+
+@-webkit-keyframes animateBox{
+  0%{
+    transform: translate(-50%,-50%) rotate(0deg);
+  }
+
+  25%{
+    transform: translate(-50%,-50%) rotate(0deg);
+  }
+
+  50%{
+    transform: translate(-50%,-50%) rotate(360deg);
+  }
+
+  75%{
+    transform: translate(-50%,-50%) rotate(360deg);
+  }
+
+  100%{
+    transform: translate(-50%,-50%) rotate(720deg);
+  }
+}
+
+@keyframes animateBox{
+  0%{
+    transform: translate(-50%,-50%) rotate(0deg);
+  }
+
+  25%{
+    transform: translate(-50%,-50%) rotate(0deg);
+  }
+
+  50%{
+    transform: translate(-50%,-50%) rotate(360deg);
+  }
+
+  75%{
+    transform: translate(-50%,-50%) rotate(360deg);
+  }
+
+  100%{
+    transform: translate(-50%,-50%) rotate(720deg);
+  }
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -187543,4 +187652,3 @@ video {
     --tw-backdrop-sepia: sepia(100%);
   }
 }
-

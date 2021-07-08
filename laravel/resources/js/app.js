@@ -23,6 +23,7 @@ window.Vue = require('vue').default;
 
 Vue.component('intro', require('./components/intro.vue').default);
 Vue.component('hello', require('./components/hello.vue').default);
+Vue.component('social-media', require('./components/social-media.vue').default);
 Vue.component('hero-team', require('./components/hero-team.vue').default);
 Vue.component('teaser-team', require('./components/teaser-team.vue').default);
 Vue.component('team-mm-lebenslauf', require('./components/team-mm-lebenslauf.vue').default);
@@ -36,6 +37,7 @@ Vue.component('team-jg-hero', require('./components/team-jg-hero.vue').default);
 Vue.component('team-jg-werdegang', require('./components/team-jg-werdegang.vue').default);
 Vue.component('imprint-hero', require('./components/imprint-hero.vue').default);
 Vue.component('imprint-text', require('./components/imprint-text.vue').default);
+// Vue.component('notification-home', require('./components/notification-home').default);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application

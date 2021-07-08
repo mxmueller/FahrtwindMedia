@@ -3,3 +3,4 @@
 <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
 <link href="{{ asset('tailwind/tailwind.css') }}" rel="stylesheet">
 <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+<link href="https://unpkg.com/aos@3.0.0-beta.6/dist/aos.css" rel="stylesheet">

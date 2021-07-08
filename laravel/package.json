@@ -27,6 +27,8 @@
         "vue-template-compiler": "^2.6.12"
     },
     "dependencies": {
+        "notistack": "^1.0.9",
+        "noty": "*",
         "popmotion": "^9.3.6"
     }
 }
