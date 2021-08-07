@@ -1880,10 +1880,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   mounted: function mounted() {
     console.log('hello-vue-component mounted.');
@@ -2142,6 +2138,53 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -50149,7 +50192,7 @@ var staticRenderFns = [
                     },
                     [
                       _vm._v(
-                        "\n                    Schwerpunkten Web- & Desktopentwicklung, Design, Beratung und\n                    Marketing.\n                    Kompetent junges, kreatives und starkes Team.\n                    Wir konzipieren, designen und\n                    programmieren individuelle nach den vorgaben unserer Kunden.\n                "
+                        "\n                    Schwerpunkten Web-, & Desktopentwicklung, Design, Beratung und Marketing. Kompetent junges, kreatives und starkes Team. Wir konzipieren, designen und programmieren individuell nach den Vorgaben unserer Kunden.\n                "
                       )
                     ]
                   ),
@@ -50437,9 +50480,7 @@ var staticRenderFns = [
                 _c("br"),
                 _vm._v("\n                Telefon: 01747150333, 01794061822 "),
                 _c("br"),
-                _vm._v(
-                  "\n                E-Mail: maximilian.mueller@mail.ch, jeremy.gassner@web.de "
-                ),
+                _vm._v("\n                E-Mail: fahrtwindmedia@aol.com "),
                 _c("br"),
                 _vm._v("\n                Adresse auf Anfrage.\n            ")
               ])
@@ -50456,7 +50497,7 @@ var staticRenderFns = [
               staticClass:
                 "title-font text-5xl pb-8 font-semibold cc_intro-font_animation text-center"
             },
-            [_vm._v("Haftungsausschluss:\n        ")]
+            [_vm._v("Haftungs"), _c("wbr"), _vm._v("ausschluss:\n        ")]
           ),
           _vm._v(" "),
           _c(
@@ -50622,74 +50663,289 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("article", { staticClass: "cc_intro_main px-6 h-screen intro" }, [
-      _c("section", { staticClass: "text-gray-600 body-font" }, [
-        _c(
-          "div",
-          {
-            staticClass:
-              "container mx-auto flex px-5 py-24 items-center justify-center flex-col"
-          },
-          [
-            _c("img", {
-              staticClass:
-                "lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded",
-              attrs: { alt: "hero", src: "https://dummyimage.com/720x600" }
-            }),
-            _vm._v(" "),
-            _c("div", { staticClass: "text-center lg:w-2/3 w-full" }, [
+  return _c(
+    "article",
+    {
+      staticClass: "cc_ci-bg2 px-6 md:h-screen h-auto pt-12 pb-24 intro",
+      staticStyle: { "overflow-x": "hidden" }
+    },
+    [
+      _c(
+        "p",
+        {
+          staticClass: "text-7xl text-center text-gray-50 cc_a_1",
+          attrs: { "data-aos": "fade-up" }
+        },
+        [_vm._v("Portale & Social Media")]
+      ),
+      _vm._v(" "),
+      _c(
+        "p",
+        {
+          staticClass:
+            "pt-5 title-font text-center sm:text-4xl text-3xl mb-4 font-medium text-gray-900  cc_a_2 aos-init aos-animate",
+          attrs: { "data-aos": "fade-up" }
+        },
+        [_vm._v("Aktive & Registrierte Plattformen:")]
+      ),
+      _vm._v(" "),
+      _c("section", { staticClass: "text-gray-600 body-font text-center" }, [
+        _c("div", { staticClass: "container px-5 py-10 mx-auto" }, [
+          _c(
+            "div",
+            { staticClass: "flex md:justify-center flex-wrap  -m-4 " },
+            [
               _c(
-                "h1",
+                "div",
                 {
-                  staticClass:
-                    "title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"
+                  staticClass: "p-4 md:w-1/3 ",
+                  attrs: { "data-aos": "fade-right" }
                 },
                 [
-                  _vm._v(
-                    "Microdosing synth\n                    tattooed vexillologist"
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden bg-white"
+                    },
+                    [
+                      _c("img", {
+                        staticClass:
+                          "lg:h-48 md:h-36 w-full object-cover object-center",
+                        attrs: { src: "/img/twago-logo.png", alt: "blog" }
+                      }),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "p-6 bg-white" }, [
+                        _c(
+                          "h2",
+                          {
+                            staticClass:
+                              "tracking-widest text-xs title-font font-medium text-gray-400 mb-1"
+                          },
+                          [_vm._v("PLATTFORM\n                            ")]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "h1",
+                          {
+                            staticClass:
+                              "title-font text-lg font-medium text-gray-900 mb-3"
+                          },
+                          [_vm._v("Twago")]
+                        ),
+                        _vm._v(" "),
+                        _c("p", { staticClass: "leading-relaxed mb-3" }, [
+                          _vm._v(
+                            "twago ist Europas führender Marktplatz für Online-Projekte. Hier finden Privatpersonen und Unternehmen jeder Größenordnung die richtigen Experten zur Umsetzung Ihrer Ideen und Projekte. Service-Anbieter finden umgekehrt neue Aufträge und fördern so ihren Absatz."
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          { staticClass: "flex items-center flex-wrap " },
+                          [
+                            _c(
+                              "a",
+                              {
+                                staticClass:
+                                  "cc_gradient inline-flex items-center md:mb-2 lg:mb-0",
+                                attrs: {
+                                  target: "_blank",
+                                  href:
+                                    "https://www.twago.de/p/fahrtwind-media/"
+                                }
+                              },
+                              [
+                                _vm._v(
+                                  "Zum Konto von Fahrtwind Media\n                                    "
+                                ),
+                                _c(
+                                  "svg",
+                                  {
+                                    staticClass: "w-4 h-4 ml-2",
+                                    attrs: {
+                                      viewBox: "0 0 24 24",
+                                      stroke: "currentColor",
+                                      "stroke-width": "2",
+                                      fill: "none",
+                                      "stroke-linecap": "round",
+                                      "stroke-linejoin": "round"
+                                    }
+                                  },
+                                  [
+                                    _c("path", { attrs: { d: "M5 12h14" } }),
+                                    _vm._v(" "),
+                                    _c("path", {
+                                      attrs: { d: "M12 5l7 7-7 7" }
+                                    })
+                                  ]
+                                )
+                              ]
+                            )
+                          ]
+                        )
+                      ])
+                    ]
                   )
                 ]
               ),
               _vm._v(" "),
-              _c("p", { staticClass: "mb-8 leading-relaxed" }, [
-                _vm._v(
-                  "Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing\n                    tousled. Chambray dreamcatcher trust fund, kitsch vice godard disrupt ramps hexagon mustache\n                    umami snackwave tilde chillwave ugh. Pour-over meditation PBR&B pickled ennui celiac mlkshk\n                    freegan photo booth af fingerstache pitchfork."
-                )
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "flex justify-center" }, [
-                _c(
-                  "button",
-                  {
-                    staticClass:
-                      "inline-flex text-white bg-pink-500 border-0 py-2 px-6 focus:outline-none hover:bg-pink-600 rounded text-lg"
-                  },
-                  [_vm._v("Button")]
-                ),
-                _vm._v(" "),
-                _c(
-                  "button",
-                  {
-                    staticClass:
-                      "ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg"
-                  },
-                  [_vm._v("Button")]
-                )
-              ])
-            ])
-          ]
+              _c(
+                "div",
+                {
+                  staticClass: "p-4 md:w-1/3 ",
+                  attrs: { "data-aos": "fade-left" }
+                },
+                [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden bg-white"
+                    },
+                    [
+                      _c("img", {
+                        staticClass:
+                          "lg:h-48 md:h-36 w-full object-cover object-center",
+                        attrs: { src: "/img/upwork-logo.jpeg", alt: "blog" }
+                      }),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "p-6 bg-white" }, [
+                        _c(
+                          "h2",
+                          {
+                            staticClass:
+                              "tracking-widest text-xs title-font font-medium text-gray-400 mb-1"
+                          },
+                          [_vm._v("PLATTFORM\n                            ")]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "h1",
+                          {
+                            staticClass:
+                              "title-font text-lg font-medium text-gray-900 mb-3"
+                          },
+                          [_vm._v("UpWork")]
+                        ),
+                        _vm._v(" "),
+                        _c("p", { staticClass: "leading-relaxed mb-3" }, [
+                          _vm._v(
+                            "Upwork ist eine englischsprachige Plattform, auf der Klienten kurzfristige oder langfristige Jobs sowie Projekte an Freelancer weltweit vergeben können. Upwork hat zwölf Millionen registrierte Freiberufler und fünf Millionen registrierte Klienten. "
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          { staticClass: "flex items-center flex-wrap" },
+                          [
+                            _c(
+                              "a",
+                              {
+                                staticClass:
+                                  "cc_gradient inline-flex items-center md:mb-2 lg:mb-0",
+                                attrs: {
+                                  href:
+                                    "https://www.upwork.com/o/profiles/users/~0156b6aff163c633f3/",
+                                  target: "_blank"
+                                }
+                              },
+                              [
+                                _vm._v(
+                                  "Zum Konto von Max\n                                    "
+                                ),
+                                _c(
+                                  "svg",
+                                  {
+                                    staticClass: "w-4 h-4 ml-2",
+                                    attrs: {
+                                      viewBox: "0 0 24 24",
+                                      stroke: "currentColor",
+                                      "stroke-width": "2",
+                                      fill: "none",
+                                      "stroke-linecap": "round",
+                                      "stroke-linejoin": "round"
+                                    }
+                                  },
+                                  [
+                                    _c("path", { attrs: { d: "M5 12h14" } }),
+                                    _vm._v(" "),
+                                    _c("path", {
+                                      attrs: { d: "M12 5l7 7-7 7" }
+                                    })
+                                  ]
+                                )
+                              ]
+                            )
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          { staticClass: "pt-3 flex items-center flex-wrap" },
+                          [
+                            _c(
+                              "a",
+                              {
+                                staticClass:
+                                  "cc_gradient inline-flex items-center md:mb-2 lg:mb-0",
+                                attrs: { target: "_blank" }
+                              },
+                              [
+                                _vm._v(
+                                  "Zum Konto von Jeremy\n                                    "
+                                ),
+                                _c(
+                                  "svg",
+                                  {
+                                    staticClass: "w-4 h-4 ml-2",
+                                    attrs: {
+                                      viewBox: "0 0 24 24",
+                                      stroke: "currentColor",
+                                      "stroke-width": "2",
+                                      fill: "none",
+                                      "stroke-linecap": "round",
+                                      "stroke-linejoin": "round"
+                                    }
+                                  },
+                                  [
+                                    _c("path", { attrs: { d: "M5 12h14" } }),
+                                    _vm._v(" "),
+                                    _c("path", {
+                                      attrs: { d: "M12 5l7 7-7 7" }
+                                    })
+                                  ]
+                                )
+                              ]
+                            )
+                          ]
+                        )
+                      ])
+                    ]
+                  )
+                ]
+              )
+            ]
+          )
+        ]),
+        _vm._v(" "),
+        _c(
+          "a",
+          {
+            staticClass:
+              "text-center inline-block py-4 px-8 bg-white  rounded-lg",
+            attrs: {
+              "data-aos": "fade-up",
+              href: "https://linktr.ee/fahrtwindmedia"
+            }
+          },
+          [_vm._v("Social Media LinkTree 🌲")]
         )
       ])
-    ])
-  }
-]
+    ]
+  )
+}
+var staticRenderFns = []
 render._withStripped = true
 
 

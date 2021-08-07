@@ -18,14 +18,14 @@
                     Fahrtwind Media koll.<br>
                     Vertreten durch: Maximilian Müller & Jeremy Gassner<br>
                     Telefon: 01747150333, 01794061822 <br>
-                    E-Mail: maximilian.mueller@mail.ch, jeremy.gassner@web.de <br>
+                    E-Mail: fahrtwindmedia@aol.com <br>
                     Adresse auf Anfrage.
                 </p>
             </div>
 
             <br> <br>
 
-            <h1 class="title-font text-5xl pb-8 font-semibold cc_intro-font_animation text-center">Haftungsausschluss:
+            <h1 class="title-font text-5xl pb-8 font-semibold cc_intro-font_animation text-center">Haftungs<wbr>ausschluss:
             </h1>
 
             <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">

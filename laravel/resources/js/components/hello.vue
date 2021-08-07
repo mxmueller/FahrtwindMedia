@@ -18,11 +18,7 @@
                         class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 cc_a_3">Ein Freelancing
                         Kollektiv</h3>
                     <p data-aos="fade-up" class="mb-8 leading-relaxed text-gray-50 cc_a_4">
-                        Schwerpunkten Web- & Desktopentwicklung, Design, Beratung und
-                        Marketing.
-                        Kompetent junges, kreatives und starkes Team.
-                        Wir konzipieren, designen und
-                        programmieren individuelle nach den vorgaben unserer Kunden.
+                        Schwerpunkten Web-, & Desktopentwicklung, Design, Beratung und Marketing. Kompetent junges, kreatives und starkes Team. Wir konzipieren, designen und programmieren individuell nach den Vorgaben unserer Kunden.
                     </p>
                     <div data-aos="fade-up" data-aos-delay="100" class="flex justify-center">
                         <a href="/team"

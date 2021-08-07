@@ -1,6 +1,6 @@
-<article class="bg-black">
+<article class="bg-black" >
     <section class="text-gray-600 body-font">
-      <div class="container flex flex-wrap px-5 py-24 mx-auto items-center">
+      <div class="container flex flex-wrap px-5 py-24 mx-auto items-center" style="overflow-x: hidden">
         <div class="md:w-1/2 md:pr-12 md:py-8 md:border-r md:border-b-0 mb-10 md:mb-0 pb-10 border-b border-gray-200 cc_a_1">
           <h1 data-aos="fade-right" class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-600">Fahrtwind Media</h1>
           <p data-aos="fade-right" data-aos-delay="200"class="leading-relaxed text-base text-gray-400">Vertreten durch: Maximilian Müller & Jeremy Gassner</p>

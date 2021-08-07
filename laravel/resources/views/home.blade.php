@@ -9,7 +9,7 @@
 <div id="app">
     <intro></intro>
     <hello></hello>
-    {{-- <social-media></social-media> --}}
+    <social-media></social-media>
 </div>
 
 @include('layouts.footer')
@@ -31,13 +31,12 @@
             callbacks: {
                 onTemplate: function () {
                     if (this.options.type === 'email') {
-                        this.barDom.innerHTML += '<div class="bg-white p-5"><a href="mailto:fahrtwindmedia@aol.com" class="no-underline hover:underline text-lg">Nimm Kontakt mit uns auf! ✍️</a></div>'
+                        this.barDom.innerHTML += '<div class="bg-white p-5 rounded-md"><a href="mailto:fahrtwindmedia@aol.com" class="no-underline hover:underline text-lg">Nimm Kontakt mit uns auf! ✍️</a></div>'
                     }
                 }
             }
         })
 
-        if (getCookie('cconsent')) {
             setTimeout(function () {
                 new Noty({
                     type: 'email',
@@ -46,7 +45,6 @@
                     progressBar: true,
                 }).show();
             }, 2000);
-        }
     })
 </script>
 

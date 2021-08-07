@@ -93,6 +93,10 @@
     background-color: #ff4b1f;
 }
 
+.cc_ci-bg2 {
+    background-color: #ff9068;
+}
+
 .cc_gradient {
     background: linear-gradient(to right, #ff9068 0%, #ff4b1f 100%);
     -webkit-background-clip: text;
@@ -217,4 +221,9 @@
     100%{
         transform: translate(-50%,-50%) rotate(720deg);
     }
+}
+
+.cc-cp-foot-save, .cc-nb-okagree, .cc-nb-reject {
+    background: #ff4b1f !important;
+    color: white !important;   
 }

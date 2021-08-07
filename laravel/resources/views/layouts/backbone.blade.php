@@ -3,128 +3,32 @@
 
 @include('layouts.head')
 
-<body class="antialiased">
-    @yield('content')
-</body>
+<!-- Cookie Consent by https://www.CookieConsent.com -->
+<script type="text/javascript" src="//www.cookieconsent.com/releases/4.0.0/cookie-consent.js" charset="UTF-8"></script>
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({"notice_banner_type":"interstitial","consent_type":"express","palette":"dark","language":"de","page_load_consent_levels":["strictly-necessary"],"notice_banner_reject_button_hide":false,"preferences_center_close_button_hide":false,"website_name":"fahrtwindmedia.de"});
+});
+</script>
 
-<script src="{{ asset('js/app.js') }}"></script>
-
- <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-DM1YFRCHP3"></script>
-<script>
+<!-- Google Analytics -->
+<script type="text/plain" cookie-consent="tracking" async src="https://www.googletagmanager.com/gtag/js?id=G-DM1YFRCHP3"></script>
+<script type="text/plain" cookie-consent="tracking">
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-DM1YFRCHP3');
 </script>
+<!-- end of Google Analytics-->
 
-<script>
-    window.CookieConsent.init({
-      // More link URL on bar
-      modalMainTextMoreLink: null,
-      // How lond to wait until bar comes up
-      barTimeout: 1000,
-      // Look and feel
-      theme: {
-        barColor: '#000',
-        barTextColor: '#FFF',
-        barMainButtonColor: '#FFF',
-        barMainButtonTextColor: '#000',
-        modalMainButtonColor: '#000',
-        modalMainButtonTextColor: '#FFF',
-      },
-      language: {
-        // Current language
-        current: 'en',
-        locale: {
-          en: {
-            barMainText: 'This website uses cookies to ensure you get the best experience on our website.',
-            barLinkSetting: 'Cookie Settings',
-            barBtnAcceptAll: 'Accept all cookies',
-            modalMainTitle: 'Cookie settings',
-            modalMainText: 'Cookies are small piece of data sent from a website and stored on the user\'s computer by the user\'s web browser while the user is browsing. Your browser stores each message in a small file, called cookie. When you request another page from the server, your browser sends the cookie back to the server. Cookies were designed to be a reliable mechanism for websites to remember information or to record the user\'s browsing activity.',
-            modalBtnSave: 'Save current settings',
-            modalBtnAcceptAll: 'Accept all cookies and close',
-            modalAffectedSolutions: 'Affected solutions:',
-            learnMore: 'Learn More',
-            on: 'On',
-            off: 'Off',
-          }
-        }
-      },
-      // List all the categories you want to display
-      categories: {
-        // Unique name
-        // This probably will be the default category
-        necessary: {
-          // The cookies here are necessary and category cant be turned off.
-          // Wanted config value  will be ignored.
-          needed: true,
-          // The cookies in this category will be let trough.
-          // This probably should be false if not necessary category
-          wanted: true,
-          // If the checkbox is on or off at first run.
-          checked: true,
-          // Language settings for categories
-          language: {
-            locale: {
-              en: {
-                name: 'Strictly Necessary Cookies',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu commodo est, nec gravida odio. Suspendisse scelerisque a ex nec semper.',
-              },
-              hu: {
-                name: 'Szükséges sütik',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu commodo est, nec gravida odio. Suspendisse scelerisque a ex nec semper.',
-              }
-            }
-          }
-        }
-      },
-      // List actual services here
-      services: {
-        // Unique name
-        analytics: {
-          // Existing category Unique name
-          // This example shows how to block Google Analytics
-          category: 'necessary',
-          // Type of blocking to apply here.
-          // This depends on the type of script we are trying to block
-          // Can be: dynamic-script, script-tag, wrapped, localcookie
-          type: 'dynamic-script',
-          // Only needed if "type: dynamic-script"
-          // The filter will look for this keyword in inserted scipt tags
-          // and block if match found
-          search: 'analytics',
-          // List of known cookie names or Regular expressions matching
-          // cookie names placed by this service.
-          // These willbe removed from current domain and .domain.
-          cookies: [
-            {
-              // Known cookie name.
-              name: '_gid',
-              // Expected cookie domain.
-              domain: `.${window.location.hostname}`
-            },
-            {
-              // Regex matching cookie name.
-              name: /^_ga/,
-              domain: `.${window.location.hostname}`
-            }
-          ],
-          language: {
-            locale: {
-              en: {
-                name: 'Google Analytics'
-              },
-              hu: {
-                name: 'Google Analytics'
-              }
-            }
-          }
-        }
-      }
-    });
-    </script>    
+<noscript>ePrivacy and GPDR Cookie Consent by <a href="https://www.CookieConsent.com/" rel="nofollow noopener">Cookie Consent</a></noscript>
+<!-- End Cookie Consent by https://www.CookieConsent.com -->
+
+<body class="antialiased">
+    @yield('content')
+</body>
+
+<script src="{{ asset('js/app.js') }}"></script>
 
 </html>
